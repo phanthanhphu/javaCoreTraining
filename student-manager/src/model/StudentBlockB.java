@@ -1,9 +1,9 @@
 package model;
 
 public class StudentBlockB extends Person {
-	public static final String Math_Subject = "Math";
-	public static final String Biology_Subject = "Biology";
-	public static final String Chemistry_Subject = "Chemistry";
+	public static final String MATH_SUBJECT = "Math";
+	public static final String BIOLOGY_SUBJECT = "Biology";
+	public static final String CHEMISTRY_SUBJECT = "Chemistry";
 
 	public StudentBlockB(String id, String name, String address, int priority) {
 		super(id, name, address, priority);
@@ -12,7 +12,7 @@ public class StudentBlockB extends Person {
 	@Override
 	public String toString() {
 		return "CandidateB{" + "id='" + id + '\'' + ", name='" + name + '\'' + ", address='" + address + '\''
-				+ ", priority=" + priority + ", Subject: " + Math_Subject + " - " + Biology_Subject+ " - " + Chemistry_Subject + '}';
+				+ ", priority=" + priority + ", Subject: " + MATH_SUBJECT + " - " + BIOLOGY_SUBJECT + " - " + CHEMISTRY_SUBJECT + '}';
 	}
 
 }

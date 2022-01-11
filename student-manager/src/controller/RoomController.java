@@ -22,8 +22,4 @@ public class RoomController implements RoomServer{
 		this.rooms.forEach(room -> System.out.println(room.toString()));
 		
 	}
-
-
-
-	
 }

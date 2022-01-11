@@ -1,7 +1,5 @@
 package views;
-
 import java.util.Scanner;
-
 import controller.RoomController;
 import controller.StudentController;
 import model.Person;
@@ -9,7 +7,6 @@ import model.Room;
 import model.StudentBlockA;
 import model.StudentBlockB;
 import model.StudentBlockC;
-
 public class Main {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -34,7 +31,6 @@ public class Main {
 				case "a": {
 					studentController.add(createPerson(scanner, "a"));
 					break;
-
 				}
 				case "b": {
 					studentController.add(createPerson(scanner, "b"));
@@ -82,7 +78,6 @@ public class Main {
 				System.out.println("Invalid");
 				continue;
 			}
-
 		}
 	}
 
@@ -105,9 +100,7 @@ public class Main {
 		} else {
 			return new StudentBlockC(id, name, address, email, priority);
 		}
-
 	}
-
 	public static Room createRoom(Scanner scanner) {
 		System.out.print("Enter ID: ");
 		String id = scanner.nextLine();
@@ -117,7 +110,5 @@ public class Main {
 		int quantity = scanner.nextInt();
 		scanner.nextLine();
 		return new Room(id, name, quantity);
-
 	}
-
 }

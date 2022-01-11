@@ -13,13 +13,10 @@ public class RoomController implements RoomServer{
 	}
 	@Override
 	public void saveRoom(Room room) {
-		this.rooms.add(room);
-		
+		this.rooms.add(room);	
 	}
-
 	@Override
 	public void showRoomInfor() {
 		this.rooms.forEach(room -> System.out.println(room.toString()));
-		
 	}
 }

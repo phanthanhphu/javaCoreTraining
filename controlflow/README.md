@@ -1,3 +1,3 @@
 * exercises java core training
-# Datatype
+# Controlflow
 

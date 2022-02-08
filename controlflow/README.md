@@ -1,3 +1,0 @@
-* exercises
-# Java Core Training
-
